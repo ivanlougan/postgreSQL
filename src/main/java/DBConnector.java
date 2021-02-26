@@ -8,7 +8,7 @@ public class DBConnector {
 
     private static String USER = "postgres";
 
-    private static String PASSWORD = "password";
+    private static String PASSWORD = "wawawewa";
 
     public static Connection connect() {
 
@@ -16,7 +16,7 @@ public class DBConnector {
 
         try {
             connection = DriverManager.getConnection(URL, USER, PASSWORD);
-            System.out.println("Connected to database\n");
+            System.out.print("Connected....");
         } catch (SQLException e) {
             e.printStackTrace();
         }
