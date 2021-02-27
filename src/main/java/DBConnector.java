@@ -8,7 +8,7 @@ public class DBConnector {
 
     private static String USER = "postgres";
 
-    private static String PASSWORD = "wawawewa";
+    private static String PASSWORD = "password";
 
     public static Connection connect() {
 
